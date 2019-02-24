@@ -1,0 +1,30 @@
+{
+  "name": "daytime",
+  "version": "1.0.0",
+  "description": "implementation of a RFC 867 daytime service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junosuarez/daytime.git"
+  },
+  "keywords": [
+    "rfc867"
+  ],
+  "author": "juno suárez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junosuarez/daytime/issues"
+  },
+  "homepage": "https://github.com/junosuarez/daytime#readme",
+  "devDependencies": {
+    "mocha": "^6.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/node": "^11.9.5"
+  }
+}
