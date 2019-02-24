@@ -1,3 +1,5 @@
+const LOCATION = process.env.LOCATION || 'Portland, OR'
+
 const DAYS = [
   'Sunday',
   'Monday',
@@ -74,7 +76,7 @@ function getTime(d = new Date) {
   const date = `${day}, ${month} ${d.getDate()}, ${d.getFullYear()}`
   const time = `${hour}:${d.getMinutes()}${ampm}`
 
-  return `${salutation} it's ${time} on ${date} in Portland, OR.\r\n`
+  return `${salutation} it's ${time} on ${date} in ${LOCATION}.\r\n`
 }
 
 import * as net from 'net';

@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+var LOCATION = process.env.LOCATION || 'Portland, OR';
 var DAYS = [
     'Sunday',
     'Monday',
@@ -73,7 +74,7 @@ function getTime(d) {
     }
     var date = day + ", " + month + " " + d.getDate() + ", " + d.getFullYear();
     var time = hour + ":" + d.getMinutes() + ampm;
-    return salutation + " it's " + time + " on " + date + " in Portland, OR.\r\n";
+    return salutation + " it's " + time + " on " + date + " in " + LOCATION + ".\r\n";
 }
 var net = require("net");
 function tcpServer(messageProvider) {
