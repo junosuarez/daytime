@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 "use strict";
 exports.__esModule = true;
 var LOCATION = process.env.LOCATION || 'Portland, OR';
@@ -99,5 +100,6 @@ function udpServer(messageProvider) {
     })
         .bind(13);
 }
+console.log(getTime());
 tcpServer(getTime);
 udpServer(getTime);

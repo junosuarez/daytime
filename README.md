@@ -1,6 +1,8 @@
 # daytime
 
-a friendly implementation of RFC 867, the Daytime Protocol, on both TCP and UDP
+a friendly implementation of RFC 867, the Daytime Protocol, on both TCP and UDP.
+
+Remember, Daytime is for humans, NTP is for machines.
 
 Give it a spin:
 ```

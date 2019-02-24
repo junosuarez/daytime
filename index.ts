@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const LOCATION = process.env.LOCATION || 'Portland, OR'
 
 const DAYS = [
@@ -106,5 +108,6 @@ function udpServer(messageProvider) {
     .bind(13)
 }
 
+console.log(getTime())
 tcpServer(getTime)
 udpServer(getTime)
