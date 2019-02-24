@@ -1,6 +1,6 @@
 # daytime
 
-an implementation of RFC 867, the Daytime Protocol
+a friendly implementation of RFC 867, the Daytime Protocol, on both TCP and UDP
 
 Give it a spin:
 ```
